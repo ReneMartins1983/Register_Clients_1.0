@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Cadastro</string>
+    <string-array name="activity_dados_pessoais_spinner_escolaridade">
+        <item>Segundo grau incompleto</item>
+        <item>Segundo grau completo</item>
+        <item>Graduação incompleta</item>
+        <item>Graduação completa</item>
+    </string-array>
+</resources>
