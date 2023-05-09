@@ -36,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
     public void enviarMSG()
     {
         AlertDialog.Builder msg = new AlertDialog.Builder(this);
-        msg.setMessage("Olá" + editText.getText().toString()+" Seu cadastro foi realizado com sucesso!");
+        msg.setMessage("Olá " + editText.getText().toString()+"! Seu cadastro foi realizado com sucesso!");
+        //msg.setMessage("Seu cadastro foi realizado com sucesso!");
         msg.show();
     }
 }
